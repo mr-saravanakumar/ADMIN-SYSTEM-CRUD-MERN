@@ -1,0 +1,67 @@
+.main-container{
+  display:flex;
+}
+.main-container .heading{
+  width:400px;
+  height: 300px;
+  padding-top: 20px;
+  color:rgb(252, 197, 0);
+  text-shadow: 10px 10px 20px rgb(252, 197, 0);
+}
+body{
+  background-color:bisque;
+}
+.main-container .container button{
+  width:100px;
+  height: 30px;
+  color:darkblue;
+  border:none;cursor: pointer;
+  background-color: rgb(254, 241, 0);
+}
+.main-container .container{
+  border: 2px solid black;
+  margin-top: 20px;
+  padding:20px;
+  width:300px;
+  height: 300px;
+  margin-left: 100px;
+}
+.main-container .data-container{
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-left:200px;
+  width:400px;
+  height: 600px;
+  overflow:scroll;
+}
+::-webkit-scrollbar{
+   overflow:hidden;
+}
+.main-container .data-container .data article:nth-child(odd){
+   background-color: rgb(156, 237, 210);
+   margin-left: 15px;
+}
+.main-container .data-container .data article:nth-child(even){
+  background-color:aqua;
+  margin-left: 15px;
+}
+
+.main-container .data-container h2{
+  margin-left: 120px;
+  background-color:darkmagenta;
+  color:rgb(255, 255, 255);
+  width: 140px;
+  padding: 10px;
+  position: sticky;
+  top:20px;
+}
+.main-container .data-container p{
+  color:crimson;
+  margin-left: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-container .data-container p span{
+  color:rgb(0, 0, 0);
+  margin-left: 50px;
+  font-size:20px;
+}
